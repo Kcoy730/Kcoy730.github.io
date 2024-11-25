@@ -719,28 +719,29 @@ span {
 
     .navbar a {
         display: block;
-        font-size: 2rem;
-        margin: 3rem 0;
+        font-size: 1.8rem;
+        margin: 1.5rem 0;
         color: white;
     }
 
     .home {
         flex-direction: column-reverse;
-        margin: 5rem 4rem;
+        margin: 3rem 2rem;
     }
 
     .home-content h3 {
-        font-size: 2.6rem;
+        font-size: 2.4rem;
     }
 
     .home-content h1 {
-        font-size: 8rem;
-        margin-top: 3rem;
+        font-size: 5rem;
+        margin-top: 2rem;
     }
 
     .home-content p {
-        max-width: 600px;
+        max-width: 100%;
         margin: 0 auto;
+        padding: 0 1rem;
     }
 
     .home-img img {
@@ -753,6 +754,8 @@ span {
 
     .services-container {
         grid-template-columns: repeat(1, 1fr);
+        gap: 2rem;
+        padding: 2rem 0;
     }
 }
 
